@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="cal.css">
+</head>
+<body>
+    <section class="calculator">
+        <form>
+            <input class="div" type="text"  id="res" readonly>
+        </form>
+    <div class="button">
+        <button type="button"value='*' class="btn-orange" onclick="display('*')">*</button>
+        <button type="button" value = '/' class="btn-orange" onclick="display('/')">/</button>
+        <button type="button" value = '+' class="btn-orange" onclick="display('+')">+</button>
+        <button type="button" value='-' class="btn-orange" onclick="display('-')">-</button>
+        <button type="button" value='9' class="btn-white" onclick="display('9')">9</button>
+        <button type="button" value='8' class="btn-white" onclick="display('8')">8</button>
+        <button type="button" value = '7' class="btn-white" onclick = "display('7')">7</button>
+        <button type="button" value= '6' class="btn-white" onclick="display('6')">6</button>
+        <button type="button" value='5' class="btn-white" onclick="display('5')">5</button>
+        <button type="button" value='4' class="btn-white" onclick="display('4')">4</button>
+        <button type="button" value='3' class="btn-white" onclick="display('3')">3</button>
+        <button type="button" value='2' class="btn-white" onclick="display('2')">2</button>
+        <button type="button" value='1' class="btn-white" onclick="display('1')">1</button>
+        <button type="button" value='0' class="btn-white" onclick="display('0')">0</button>
+        <button type="button" value = '.' class="btn-white" onclick="display('.')">.</button>
+        <button type="button" value='=' class="btn-equal" onclick="solve()">=</button>
+        <button type="button" value='C' class="btn-clear" onclick="clearScreen()">C</button>
+
+    </div>
+
+</section>
+</body>
+<script src="cal.js"></script>
+</html>
+
